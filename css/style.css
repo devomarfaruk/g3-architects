@@ -356,6 +356,55 @@ main section css here
     filter: grayscale(0%);
 }
 
+/* banner start here */
+.banner {
+    background: #222831;
+    margin: 0 180px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.banner-left {
+    padding-left: 100px;
+}
+
+.banner-contact {
+    font-weight: 600;
+    font-size: 12px;
+    color: #FF900E;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.banner-tittle {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 35px;
+    color: #fff;
+}
+
+.talk-opt {
+    display: flex;
+    align-items: center;
+}
+
+.banner-talk {
+    font-weight: 700;
+    font-size: 32px;
+    color: #FF900E;
+    margin-left: -50px;
+    cursor: pointer;
+}
+
+.talk-opt div {
+    width: 86.62px;
+    height: 86.62px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
 /* --------
 footer section css here
 ------------ */
