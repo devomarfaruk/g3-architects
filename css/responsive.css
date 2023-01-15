@@ -1,26 +1,30 @@
 @media all and (max-width:576px) {
     .logo {
         font-size: 25px;
+        margin-bottom: 20px;
     }
 
     .header-content {
         padding: 30px 100px;
     }
 
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        padding: 10px 0;
+    }
+
     nav ul li a {
         font-size: 16px;
     }
 
-    .navbar-new {
-        display: block;
-    }
-
-    nav ul li {
-        margin: 0 10px;
-    }
-
     nav ul {
-        display: block;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 
     .header-title {
