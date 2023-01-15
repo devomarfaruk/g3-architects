@@ -314,6 +314,23 @@ main section css here
     height: 240px;
     margin: 0 20px;
     border-radius: 10px;
+    position: relative;
+}
+
+
+.fact-1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #ffad4f1c;
+    transition: .5s;
+}
+
+.fact-1:hover::after {
+    width: 100%;
 }
 
 .fact-1 img {
